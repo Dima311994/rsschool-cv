@@ -2,16 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <link rel="stylesheet" href="./style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script
       src="https://kit.fontawesome.com/4aa750a57f.js"
       crossorigin="anonymous"
     ></script>
+    <script defer src="./app.js"></script>
     <title>Dmitry Vnuk</title>
   </head>
   <body>
@@ -39,8 +46,8 @@
             <section class="main__contacts contacts contacts_size-wrap">
               <h3 class="contacts__title-main title-main">CONTACTS</h3>
               <div class="contacts__phone">
-                <i class="fas fa-mobile-alt fa-contacts"></i
-                ><span class="phone">+375 29 614-09-75</span>
+                <i class="fas fa-mobile-alt fa-contacts"></i>
+                <span class="phone"> +375 29 614-09-75</span>
               </div>
               <div class="contacts__email">
                 <i class="fas fa-at fa-contacts"></i
@@ -87,8 +94,8 @@
                     <i class="fab fa-github fa-skill"></i>Git/Github
                   </li>
                   <li class="skill-marker">
-                    <i class="fab fa-tumblr fa-skill"></i
-                    ><span class="typescript">TypeScript</span>
+                    <i class="fab fa-tumblr fa-skill"></i>
+                    <span class="typescript">TypeScript</span>
                   </li>
                 </ul>
               </div>
@@ -100,16 +107,15 @@
                 <h3 class="title-main">LANGUAGES</h3>
                 <div class="language">
                   <ul>
-                    <li>ENGLISH</li>
-                    <li>RUSSIAN</li>
-                    <li>BELARUSIAN</li>
+                    <li>ENGLISH - B1 (In progress)</li>
+                    <li>RUSSIAN - C2</li>
+                    <li>BELARUSIAN - Native</li>
                   </ul>
                 </div>
               </div>
             </section>
           </main>
         </div>
-
         <aside class="cont-right">
           <div class="cont-right__about-myself about-myself about-myself_size">
             <h3 class="cont-right-wrap">ABOUT MYSELF</h3>
@@ -130,9 +136,7 @@
               class="cont-right-wrap__education-desc education-desc education-desc_size"
             >
               <p><b>Belarusian Russian University</b></p>
-
               <p>Years: 2010 - 2015</p>
-
               <p>Specialization: Mechanical Engineering major</p>
             </div>
           </div>
@@ -147,17 +151,20 @@
                 <li>EPAM Training</li>
                 <li>IT STEP Academy</li>
                 <li>CS50 lectures</li>
+                <li>MDA BRU</li>
               </ul>
             </div>
           </div>
           <div class="cont-right__code-example code-example code-example_size">
-            <h3 class="cont-right-wrap">CODE EXAMPLE</h3>
+            <h3 class="cont-right-wrap">My Project</h3>
             <div class="cont-img-codewars">
-              <img
-                class="img-codewars"
-                src="./img/codewars.png"
-                alt="codewars solution"
-              />
+              
+              <a href="https://dimavnuk.github.io/" target="_blank"><div class="img-project img-project_picture-one"></div>
+              <a href="https://rolling-scopes-school.github.io/dimavnuk-JSFE2021Q3/museum/" target="_blank"><div class="img-project img-project_picture-two"></div></a>
+              <a href="https://dimavnuk.github.io/admin-game-page-js/" target="_blank"><div class="img-project img-project_picture-three"></div></a>
+              <a href="https://rolling-scopes-school.github.io/dimavnuk-JSFE2021Q3/momentum/" target="_blank"><div class="img-project img-project_picture-four"></div></a>
+              <a href="https://books-store-react-test.herokuapp.com/" target="_blank"><div class="img-project img-project_picture-five"></div></a>
+              <a href="https://rolling-scopes-school.github.io/dimavnuk-JSFE2021Q3/christmas-task/dist/" target="_blank"><div class="img-project img-project_picture-six"></div></a>
             </div>
           </div>
         </aside>
@@ -172,10 +179,15 @@
                 alt="github"
             /></a>
           </div>
-          <div class="footer__year year"><h5>2021</h5></div>
+          <a href="https://www.codewars.com/users/DimaVnuk" target="_blank"><div class="footer__year year"><img class="image-codewars" src="https://docs.codewars.com/logo.svg"/></div></a>
           <div>
-            <a href="https://rs.school/js/" target="_blank"
-              ><img class="img-rs" src="./img/rs_school_js.svg" alt="rs-school"
+            <a
+              href="https://www.linkedin.com/in/dmitry-vnuk-7a9206206/"
+              target="_blank"
+              ><img
+                class="img-rs"
+                src="http://pngimg.com/uploads/linkedIn/linkedIn_PNG39.png"
+                alt="rs-school"
             /></a>
           </div>
         </div>
