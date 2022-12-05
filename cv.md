@@ -1,4 +1,4 @@
-https://GITHUB-USERNAME.github.io/rsschool-cv/cv
+https://Dima311994.github.io/rsschool-cv/cv
 
 <h1 align="center">Dmitry Vnuk</h1>
 
